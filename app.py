@@ -15,7 +15,7 @@ resume_file = st.sidebar.file_uploader("Upload Resume (Text File)", type=["txt"]
 # Filters
 selected_domain = st.sidebar.text_input("Enter Preferred Domain (e.g. Data Science, Cloud)")
 selected_level = st.sidebar.selectbox("Select Level", ["", "Beginner", "Intermediate", "Advanced"])
-selected_platform = st.sidebar.selectbox("Select Platform", ["", "Coursera", "Udemy", "edX", "DataCamp"])
+selected_platform = st.sidebar.selectbox("Select Platform", ["", "Coursera", "Udemy", "edX", "DataCamp","NPTEL","Skillshare"])
 price_range = st.sidebar.slider("Select Price Range", 0, 10000, (0, 2000))
 min_rating = st.sidebar.slider("Minimum Rating", 0.0, 5.0, 3.0, 0.1)
 
