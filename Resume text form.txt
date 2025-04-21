@@ -1,0 +1,55 @@
+Sumeet Kumar Behera +91-9692020833
+Bachelor of Technology mailto:skb55871@gmail.com
+Artifical Intelligence and Data Science https://www.linkedin.com/in/sumeet-kumar-2b4b92231/
+Guru Gobind Singh Indraprastha University EDC New Delhi
+Enrollment No: 11719011921
+EDUCATIOn
+• Bachelor of Technology in Artificial Intelligence and Data Science 2021-25
+UNIVERSITY SCHOOL OF AUTOMATION AND ROBOTICS Surajmal Vihar New Delhi CGPA: 7.9
+• Intermediate
+ODM Public School, Bhubaneswar, Odisha Year: 2021
+-High School
+Venkateswar E.M School Year: 2019
+PERsonaL PROjECTs
+1. Suicide Rate Prediction using Machine Learning
+- Description: Utilized regression models to estimate suicide rates from various factors, with the goal of raising awareness about
+suicide and depression.
+- Technologies Used: Machine Learning (Regression), Python.
+2. Raw Rice Prediction and Analysis
+- Description: Developed prediction models including Regression and RNN (LSTM), along with ensemble methods. Employed
+performance evaluation metrics such as RSME and MAE.
+- Technologies Used: Regression Models, RNN (LSTM), Ensemble Models, Matplotlib, Seaborn, Python.
+3. LSTM for Stock Prediction
+- Description: Implemented LSTM (Long Short-Term Memory) model for stock price prediction.
+- Technologies Used: LSTM, Machine Learning, Python.
+4. Survival_Titanic Prediction
+- Description: Employed machine learning techniques for predicting survival on the Titanic.
+- Technologies Used: Machine Learning, Python.
+EXPERIENCE
+• Google Cloud Skill Boost: Understanding Google Cloud Security and Operations April - June 2022
+Online
+• - Completed a comprehensive three-month training program focused on enhancing proficiency in Google Cloud
+security and operations.
+- Developed a deep understanding of cloud security concepts and operational best practices within the Google Cloud
+environment.
+- Acquired skills in designing and implementing security controls and compliance measures to meet industry
+standards and regulations.
+Somyasree Agro Warehousing and Food Industries Pvt Ltd (SAWFIL): Internship Aug 2023 - sept2023
+- completed offline internship for data science . offline
+• Work on field project to gain hands on data for analysis and data visualization.
+• Perform ML tools on data to predict the future output.
+TEChnICAL SKILLs anD InTEREsTs
+Languages: C, Python, R
+Libraries : Python Libraries
+Tools: jupyter Notebook, Ide, Github, Google colab
+Frameworks: scilit-Learn, tensorflow, numpy,
+panda, matplotlib
+Cloud/Databases: Gcloud, Firebase, Relational Database(mySql)
+Relevent Coursework: Data Structures & Algorithms, Operating Systems, Object Oriented Programming, Database
+Management System, Software Engineering.
+Areas of Interest: Data Science, Artificial Intelligence, Machine Learning , Cloud Security.
+Soft Skills: Problem Solving, Self-learning, Presentation, Adaptability
+PosITIOns of REsPOnsIBILITy
+• NSS Volunteer Blood Donation Awareness Dec 2023
+– Helped to attract close to 300 attendees to the event.
+– Awareness spread Regarding Blood donation.
