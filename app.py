@@ -39,8 +39,8 @@ if selected_domain or selected_level or selected_platform or price_range or min_
         filtered_df = filtered_df[filtered_df['Platform'].str.lower() == selected_platform.lower()]
     
     filtered_df = filtered_df[
-        (filtered_df['Price'] >= price_range[0]) & 
-        (filtered_df['Price'] <= price_range[1]) & 
+        (filtered_df['price'] >= price_range[0]) & 
+        (filtered_df['price'] <= price_range[1]) & 
         (filtered_df['Rating'] >= min_rating)
     ]
 
