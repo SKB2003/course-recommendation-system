@@ -16,7 +16,7 @@ def get_resume_recommendations(df, extracted_skills):
     
     df["similarity_score"] = cosine_sim[0]
     top_recommendations = df.sort_values(by="similarity_score", ascending=False).head(10)
-    return top_recommendations[["Course Name", "similarity_score"]]
+    return top_recommendations[['course_id',"Course Name", "similarity_score",'domain','price','level','platform','rating','duration_hours']]
 
 def get_filtered_courses(df, selected_domain):
     return df[df["Course Name"].str.contains(selected_domain, case=False, na=False)].head(10)
