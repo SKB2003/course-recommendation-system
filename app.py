@@ -32,11 +32,11 @@ if selected_domain or selected_level or selected_platform or price_range or min_
     filtered_df = df.copy()
 
     if selected_domain:
-        filtered_df = filtered_df[filtered_df['Domain'].str.contains(selected_domain, case=False, na=False)]
+        filtered_df = filtered_df[filtered_df['domain'].str.contains(selected_domain, case=False, na=False)]
     if selected_level:
-        filtered_df = filtered_df[filtered_df['Level'].str.lower() == selected_level.lower()]
+        filtered_df = filtered_df[filtered_df['level'].str.lower() == selected_level.lower()]
     if selected_platform:
-        filtered_df = filtered_df[filtered_df['Platform'].str.lower() == selected_platform.lower()]
+        filtered_df = filtered_df[filtered_df['platform'].str.lower() == selected_platform.lower()]
     
     filtered_df = filtered_df[
         (filtered_df['price'] >= price_range[0]) & 
