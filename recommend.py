@@ -4,7 +4,10 @@ import pandas as pd
 
 def get_resume_recommendations(df, extracted_skills):
     df = df.copy()
-    df["course_combined"] = df["Course Name"].fillna("") + " " + df["Course Description"].fillna("")
+    
+    # Use Course Name only since no Course Description
+    df["course_combined"] = df["Course Name"].fillna("")
+    
     resume_text = " ".join(extracted_skills)
     
     tfidf = TfidfVectorizer(stop_words="english")
@@ -13,7 +16,7 @@ def get_resume_recommendations(df, extracted_skills):
     
     df["similarity_score"] = cosine_sim[0]
     top_recommendations = df.sort_values(by="similarity_score", ascending=False).head(10)
-    return top_recommendations[["Course Name", "Course Description", "similarity_score"]]
+    return top_recommendations[["Course Name", "similarity_score"]]
 
 def get_filtered_courses(df, selected_domain):
     return df[df["Course Name"].str.contains(selected_domain, case=False, na=False)].head(10)
