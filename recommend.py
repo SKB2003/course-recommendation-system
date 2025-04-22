@@ -5,7 +5,7 @@ import pandas as pd
 def get_resume_recommendations(df, extracted_skills):
     df = df.copy()
     
-    # Use Course Name only since no Course Description
+    
     df["course_combined"] = df["Course Name"].fillna("")
     
     resume_text = " ".join(extracted_skills)
