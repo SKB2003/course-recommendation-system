@@ -23,7 +23,7 @@ min_rating = st.sidebar.slider("Minimum Rating", 0.0, 5.0, 3.0, 0.1)
 if dataset_file:
     df = pd.read_csv(dataset_file)
 else:
-    df = pd.read_csv("10k_bigdata_course_dataset.csv")
+    df = pd.read_csv("bigdata_course_dataset.csv")
 
 
 if selected_domain or selected_level or selected_platform or price_range or min_rating:
